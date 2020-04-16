@@ -7,9 +7,9 @@ def square_array(array)
  new_array = []
  
  while array[count] do 
-   puts array[count]
+   puts new_array.push(array[count])
    count +=1
  end
-new_array.push(array[count])  
+  
 end
 
